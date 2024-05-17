@@ -63,7 +63,7 @@ void main(void)
             if(PORTAbits.RA1) // Check PIR sensor
             {
                 students++;
-                __delay_ms(1000); // Delay to count only once
+                __delay_ms(1000); 
             }
             LCD_Clear();
             LCD_Set_Cursor(1, 1);

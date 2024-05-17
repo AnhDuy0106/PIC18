@@ -41,9 +41,9 @@ void LCD_Write_Char(char data)
 
 void LCD_Init()
 {
-    TRISC0 = 0; // RS pin as output
-    TRISC1 = 0; // EN pin as output
-    TRISD4 = 0; // Data pins as output
+    TRISC0 = 0; // RS pin 
+    TRISC1 = 0; // EN pin 
+    TRISD4 = 0; // Data pins output
     TRISD5 = 0;
     TRISD6 = 0;
     TRISD7 = 0;
